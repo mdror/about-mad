@@ -1,5 +1,47 @@
 body{
 
   text-align: center;
-  color: red;
+  background-image: url('boston.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lobster', cursive;
+  /*background-position: center;*/
+  color: white;
+}
+
+ img {
+    margin: 10px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 100px;
+    } 
+
+.first{
+  margin: -10px 0px 0px 0px;
+   
+}
+
+.second{
+  margin: 0px 0px 0px 0px;
+   
+}
+
+.third{
+  margin: -450px -950px 0px 0px;
+  
+}
+
+.forth{
+  margin: -200px 1200px 0px 0px;
+}
+
+h1{
+  color: rgba(0,0,0,0.9);
+  font-size: 70px;
+}
+
+
+p{
+  color: rgba(0,0,0,0.9);
+  font-size: 35px;
+
 }
