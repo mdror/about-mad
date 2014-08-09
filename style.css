@@ -1,62 +1,80 @@
-body{
-
-  text-align: center;
+html{
   background-image: url('boston.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  
+}
+
+body{
+
+  text-align: center;
+  
   font-family: 'Lobster', cursive;
   /*background-position: center;*/
   color: white;
 }
 
- img {
+ /*img {
     margin: 10px 0px 0px 0px;
     border: 7px solid white;
     border-radius: 100px;
     } 
+  */
 
-.first{
-  margin: -10px 0px 0px 0px;
-   
+#first{
+  margin: -108px -14px 0px 0px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 62px;
 }
 
-.second{
-  margin: 0px 0px 0px 0px;
-   
+
+.tagline{
+  color: rgba(255, 255, 255, 1);
+  font-size: 31px;
 }
+
+.head{
+  width: 142px;
+  height: 142px;
+  margin: -62px 0px 0px 188px;
+  border-radius: 100px;
+}
+
 
 .third{
-  margin: -450px -950px 0px 0px;
-  
+  margin: -295px 0px 0px 1215px;
+  width: 142px;
+  height: 142px;
+  border-radius: 100px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
 }
+
 
 
 .forth{
-  margin: -100px 1200px 0px 0px;
+  margin: -151px 1200px 0px 0px;
+  font-size: 10px;
+  color: white;
 }
 
 .fifth{
-  margin: -100px 750px -200px 0px;
+  margin: -174px 750px 0px 0px;
+  font-size: 8px;
 }
 
 .show-about-me{
-  margin: -200px 1250px 0px 0px;
+  margin: 0px 1250px 0px 0px;
   color: rgba(0,0,0,0.9);
   font-family: 'Merriweather', serif;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.4);
+  text-align: left;
 }
-
-h1{
-  
-  color: rgba(0, 0, 0, 1);
-  font-size: 70px;
-}
-
 
 p{
   color: rgba(0,0,0,0.9);
-  font-size: 35px;
+  font-size: 65px;
   
 }
 
@@ -64,10 +82,22 @@ a{
     color: rgba(255, 255, 255, 0.4);
 }
 
+img{
+  border-radius: 100px;
+
+}
+
 .subheading{
     color: rgba(255, 255, 255, 0.4);
     font-size: 60px;
     font-weight:900;
 }
+
+em{
+  font-size: 30px;
+
+}
+
+
 
 

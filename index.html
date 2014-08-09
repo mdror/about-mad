@@ -1,48 +1,68 @@
 <!DOCTYPE html>
+    <!--link to stylesheet file-->
 
 <link href = "style.css" rel= "stylesheet">
+    
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+      <!--font for show-about-me-->
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 
 <script src="jquery.js"></script>
 
 <head>
+  
   <title>M.A.D.</title>
 
-
-  <body>
-    <div class ="first">
-      <h1>About M.A.D.</h1>
-    <img src="bw-head.jpg" alt="M.A.D" height="142" width="142">
-    </div>
-    <div class ="second">  
-      <p>and other stuff...</p>
-     
-    </div> 
+    <body>
       
-    <div class ="third">
-      <img src="graf.jpg" alt="zepplin" height="142" width="142"Graf Zepplin>
-      <p>Graf Zepplin</p>
-    </div>
-    <div class ="forth">
-      <p>Sneaky pigeon</p>
-      <img src="hand.jpg" alt="pointing hand" height="100" width="100"Graf Zepplin>
-      
-    </div>
-    <div class ="fifth">
-      <img src="dog.jpg" alt="funny sitting dog" height="100" width="100">
-      
+    <div id="first">
+      <h1>
+        About M.A.D. 
+        <span class="tagline">and other stuff...</span>
+      </h1>
+        
+      <img src="bw-head.jpg" alt="M.A.D" height="142" width="142"class="head" alt="head"/>
+        
     </div>
 
-    <div class ="show-about-me">
+    <div class="third">
+      
+      <img src="images/graf.jpg" alt="zepplin" height="142" width="142"/>
+      <em>&#8593</em>
+      <h1>Graf Zepplin </h1>
+
+    </div>
+    
+    <div class="forth">
+      
+      <h1>Pigeon <em>&#8594</em> </br> <em>&#8592</em>Sighting</h1>
+    
+    </div>
+    
+    
+
+    <div class="show-about-me">
       <span class ="subheading">MAD</span>
-        <h2>Likes</h2>
-          <ol>Peaches Cashew nuts Abstraction Adorno</ol>
-        <h2>Dislikes</h2>
-          <ol>Jello Rigidity Particle-board Snakes</ol>
+        <dl>
+          <h2>Likes</h2>
+            <dd>Peaches</dd>
+            <dd>Cashew nuts</dd>
+            <dd>Abstraction</dd>
+            <dd>Adorno</dd>
+        </dl>
+          
+        <dl>
+          <h2>Dislikes</h2>
+            <dd>Jello</dd>
+            <dd>Rigidity</dd>
+            <dd>Particle-board</dd>
+            <dd>Snakes</dd>
+        </dl>
         <h2>Experience</h2>
-          <ol>GA Bewd Self-study</ol>
-        <h2>Contact: <a href="https://github.com/mdror">Github MDROR</a>
+          <dd>GA Bewd</dd> 
+          <dd>Self-study</dd>
+        <h2>Contact:</h2>
+        <dd><a href="https://github.com/mdror">MDROR</a></dd>
     </div>
   
     
@@ -51,11 +71,11 @@
 var i = 0; var path = new Array(); 
 
 // LIST OF IMAGES 
-path[0] = "cape.jpg"; 
-path[1] = "ship.jpg"; 
-path[2] = "ship-5.jpg"; 
-path[3] = "ship-4.jpg"; 
-path[4] = "monster.jpg"; 
+path[0] = "images/cape.jpg"; 
+path[1] = "images/ship.jpg"; 
+path[2] = "images/ship-5.jpg"; 
+path[3] = "images/ship-4.jpg"; 
+path[4] = "images/monster.jpg"; 
 
 function swapImage() { document.slide.src = path[i]; 
 if(i < path.length - 1) i++; 
@@ -64,12 +84,9 @@ else i = 0; setTimeout("swapImage()",4000);
 
 </script> 
 
-<img height="200" name="slide" src="image_1.gif" width="400" />
+<img height="250" name="slide" src="image_1.gif" width="500" />
 
    
-  
   </body>
-
-  
 
 </head>
