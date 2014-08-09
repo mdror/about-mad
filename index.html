@@ -2,6 +2,10 @@
 
 <link href = "style.css" rel= "stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+
+<script src="jquery.js"></script>
+
 <head>
   <title>M.A.D.</title>
 
@@ -9,10 +13,11 @@
   <body>
     <div class ="first">
       <h1>About M.A.D.</h1>
+    <img src="bw-head.jpg" alt="M.A.D" height="142" width="142">
     </div>
     <div class ="second">  
-      <p>and other stuff</p>
-    <img src="bw-head.jpg" alt="M.A.D" height="142" width="142"> 
+      <p>and other stuff...</p>
+     
     </div> 
       
     <div class ="third">
@@ -20,13 +25,51 @@
       <p>Graf Zepplin</p>
     </div>
     <div class ="forth">
-      <img src="hand.jpg" alt="pointing hand" height="100" width="100"Graf Zepplin>
       <p>Sneaky pigeon</p>
+      <img src="hand.jpg" alt="pointing hand" height="100" width="100"Graf Zepplin>
+      
     </div>
+    <div class ="fifth">
+      <img src="dog.jpg" alt="funny sitting dog" height="100" width="100">
+      
+    </div>
+
+    <div class ="show-about-me">
+      <span class ="subheading">MAD</span>
+        <h2>Likes</h2>
+          <ol>Peaches Cashew nuts Abstraction Adorno</ol>
+        <h2>Dislikes</h2>
+          <ol>Jello Rigidity Particle-board Snakes</ol>
+        <h2>Experience</h2>
+          <ol>GA Bewd Self-study</ol>
+        <h2>Contact: <a href="https://github.com/mdror">Github MDROR</a>
+    </div>
+  
+    
+ 
+  <script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "cape.jpg"; 
+path[1] = "ship.jpg"; 
+path[2] = "ship-5.jpg"; 
+path[3] = "ship-4.jpg"; 
+path[4] = "monster.jpg"; 
+
+function swapImage() { document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; setTimeout("swapImage()",4000); 
+} window.onload=swapImage;
+
+</script> 
+
+<img height="200" name="slide" src="image_1.gif" width="400" />
+
+   
+  
   </body>
 
-  <script>
-
-  </script>
+  
 
 </head>
