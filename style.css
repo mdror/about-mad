@@ -44,7 +44,7 @@ body{
   font-size: 30px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  margin: -293px 63px 62px 978px;
+  margin: -286px -164px 62px 978px;
 }
 
 .graf{
@@ -72,22 +72,26 @@ body{
 
 }
 
-.carousel{
-  margin: -407px 1200px 0px 627px;
-  font-size: 30px;
 
-}
 
 
 .forth{
-  margin: -630px 1200px 0px 0px;
+  margin: -550px 1200px 0px 0px;
 }
+
+
 
 .show-about-me{
   color: rgba(0,0,0,0.9);
   font-family: 'Merriweather', serif;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.4);
+}
+
+.fifth{
+  margin: -363px 1203px 0px 844px;
+  font-size: 30px;
+  border-radius: 100;
 }
 
 p{
@@ -104,21 +108,26 @@ img{
 
 }
 
-.subheading{
+
+
+}
+
+/*.subheading{
+    color: blue;
     color: rgba(255, 255, 255, 0.4);
     font-size: 60px;
     font-weight:900;
 }
-
+*/
 em{
   font-size: 60px;
 }
 
-.footer {
+/*.footer {
     font-size: 6;
     color: red;
     margin: -850px 1200px 0px 0px;;
-}
+}*/
 
 
 
