@@ -44,7 +44,7 @@ body{
   font-size: 30px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  margin: -286px -164px 62px 978px;
+  margin: -286px -164px 62px 756px;
 }
 
 .graf{
@@ -57,7 +57,7 @@ body{
 
 
 .third{
-  margin: -68px 655px -134px 0px;
+  margin: 354px 655px -134px 0px;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -76,7 +76,7 @@ body{
 
 
 .forth{
-  margin: -550px 1200px 0px 0px;
+  margin: -924px 0px 0px 0px;
 }
 
 
@@ -89,15 +89,16 @@ body{
 }
 
 .fifth{
-  margin: -363px 1203px 0px 844px;
+  margin: -359px 0px 0px 800px;
   font-size: 30px;
   border-radius: 100;
 }
 
 p{
   text-align: center;
-  
+  line-height: 1.5;
 }
+
 
 a{
     color: rgba(255, 255, 255, 0.4);
