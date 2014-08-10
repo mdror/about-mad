@@ -1,19 +1,16 @@
-html{
+body{
   background-image: url('boston.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  
-}
+  background-image: center;
+  background-attachment: fixed;
 
-body{
-
-  text-align: center;
-  
+  /*text-align: center;*/
   font-family: 'Lobster', cursive;
   /*background-position: center;*/
   color: white;
-}
 
+}
  /*img {
     margin: 10px 0px 0px 0px;
     border: 7px solid white;
@@ -22,59 +19,79 @@ body{
   */
 
 #first{
-  margin: -108px -14px 0px 0px;
+  margin: -91px -14px 120px 372px;
   color: rgba(0, 0, 0, 1);
-  font-size: 62px;
+  font-size: 60px;
 }
 
 
 .tagline{
+  
   color: rgba(255, 255, 255, 1);
-  font-size: 31px;
+  font-size: 40px;
 }
 
-.head{
+.my-head{
   width: 142px;
   height: 142px;
-  margin: -62px 0px 0px 188px;
-  border-radius: 100px;
+  margin: -286px -11px 11px 286px;
+  border-radius: 35px;
+  
+}
+
+
+.second{
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: -293px 63px 62px 978px;
+}
+
+.graf{
+  width: 220px;
+  height: 220px;
+  border-radius: 120px;
+  border-style: solid;
+  border-color: black;
 }
 
 
 .third{
-  margin: -295px 0px 0px 1215px;
-  width: 142px;
-  height: 142px;
-  border-radius: 100px;
-  font-size: 10px;
-  color: rgba(255, 255, 255, 1);
+  margin: -68px 655px -134px 0px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
+.pigeon{
+  width: 220px;
+  height: 220px;
+  border-radius: 120px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.carousel{
+  margin: -407px 1200px 0px 627px;
+  font-size: 30px;
+
+}
 
 
 .forth{
-  margin: -151px 1200px 0px 0px;
-  font-size: 10px;
-  color: white;
-}
-
-.fifth{
-  margin: -174px 750px 0px 0px;
-  font-size: 8px;
+  margin: -630px 1200px 0px 0px;
 }
 
 .show-about-me{
-  margin: 0px 1250px 0px 0px;
   color: rgba(0,0,0,0.9);
   font-family: 'Merriweather', serif;
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.4);
-  text-align: left;
 }
 
 p{
-  color: rgba(0,0,0,0.9);
-  font-size: 65px;
+  text-align: center;
   
 }
 
@@ -94,8 +111,13 @@ img{
 }
 
 em{
-  font-size: 30px;
+  font-size: 60px;
+}
 
+.footer {
+    font-size: 6;
+    color: red;
+    margin: -850px 1200px 0px 0px;;
 }
 
 

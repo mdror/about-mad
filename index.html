@@ -1,92 +1,120 @@
 <!DOCTYPE html>
-    <!--link to stylesheet file-->
+    
+<html>
+
+  <!--link to stylesheet file-->
 
 <link href = "style.css" rel= "stylesheet">
     
+    <!-- font for text -->
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-      <!--font for show-about-me-->
+    
+    <!--font for show-about-me-->
+
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 
-<script src="jquery.js"></script>
+<!--script src="jquery.js"></script-->
 
 <head>
   
   <title>M.A.D.</title>
 
-    <body>
+<script language="JavaScript"> 
+  var i = 0; var path = new Array(); 
+
+      // carousel images 
+
+  path[0] = "images/cape.jpg"; 
+  path[1] = "images/ship.jpg"; 
+  path[2] = "images/ship-5.jpg"; 
+  path[3] = "images/ship-4.jpg"; 
+  path[4] = "images/monster.jpg"; 
+
+  function swapImage() { document.slide.src = path[i]; 
+  if(i < path.length - 1) i++; 
+  else i = 0; setTimeout("swapImage()",4000); 
+  } window.onload=swapImage;
+
+</script> 
+
+</head>
+
+<body>
       
     <div id="first">
       <h1>
         About M.A.D. 
         <span class="tagline">and other stuff...</span>
-      </h1>
-        
-      <img src="bw-head.jpg" alt="M.A.D" height="142" width="142"class="head" alt="head"/>
-        
+      </h1> 
+      <img src="bw-head.jpg" alt="M.A.D" height="142" width="142"class="my-head" alt="head"/>
     </div>
 
+    <div class="second">
+      <figure>
+      <img src="images/graf.jpg" alt="zepplin" height="142" width="142" class="graf"alt="zepplin"/>
+      
+      <figcaption><em>&#8673</em>Graf Zepplin</br>Sighting!</figcaption>
+      </figure>
+    </div>
+    
     <div class="third">
       
-      <img src="images/graf.jpg" alt="zepplin" height="142" width="142"/>
-      <em>&#8593</em>
-      <h1>Graf Zepplin </h1>
-
+      <figure>
+      <figcaption>&#8673</figcaption>
+      <img src="images/bad-pigeons.jpg" alt="mean pigeon" height="142" width="142" class="pigeon"alt="pigeon"/>
+      
+      <figcaption>Hint: left-corner</figcaption>
+      </figure>
     </div>
     
     <div class="forth">
-      
-      <h1>Pigeon <em>&#8594</em> </br> <em>&#8592</em>Sighting</h1>
-    
-    </div>
-    
-    
-
-    <div class="show-about-me">
-      <span class ="subheading">MAD</span>
-        <dl>
-          <h2>Likes</h2>
-            <dd>Peaches</dd>
-            <dd>Cashew nuts</dd>
-            <dd>Abstraction</dd>
-            <dd>Adorno</dd>
-        </dl>
+      <div class="show-about-me">
+        <span class ="subheading">MAD</span>
+      </ul>
+        <ul>
+          <h3>LIKES</h3>
+            <li>Peaches</li>
+            <li>Bruno Schulz</li>
+            <li>Cashew nuts</li>
+            <li>Theodor Adorno</li>
+            <li>Airships</li>
+        </ul>
           
-        <dl>
-          <h2>Dislikes</h2>
-            <dd>Jello</dd>
-            <dd>Rigidity</dd>
-            <dd>Particle-board</dd>
-            <dd>Snakes</dd>
-        </dl>
-        <h2>Experience</h2>
-          <dd>GA Bewd</dd> 
-          <dd>Self-study</dd>
-        <h2>Contact:</h2>
-        <dd><a href="https://github.com/mdror">MDROR</a></dd>
+        <ul>
+          <h3>DISLIKES</h3>
+            <li>Jello &#169</li>
+            <li>Particle-board</li>
+            <li>Black ice</li>
+            <li>Mean pigeons</li>
+        </ul>
+          
+        <ul>
+          <h3>EXPERIENCE</h3>
+            <li>GA Bewd</li> 
+            <li>Self-study</li>
+        </ul>
+
+        <ul>
+          <h3>CONTACT</h3>
+        </ul>
+        <li><a href="https://github.com/mdror">MDROR</a></li>
     </div>
-  
-    
- 
-  <script language="JavaScript"> 
-var i = 0; var path = new Array(); 
-
-// LIST OF IMAGES 
-path[0] = "images/cape.jpg"; 
-path[1] = "images/ship.jpg"; 
-path[2] = "images/ship-5.jpg"; 
-path[3] = "images/ship-4.jpg"; 
-path[4] = "images/monster.jpg"; 
-
-function swapImage() { document.slide.src = path[i]; 
-if(i < path.length - 1) i++; 
-else i = 0; setTimeout("swapImage()",4000); 
-} window.onload=swapImage;
-
-</script> 
-
-<img height="250" name="slide" src="image_1.gif" width="500" />
-
+  </div>
    
-  </body>
+  <div class="carousel">
+    <figure>
+      <figcaption>Sailor TV&#8675</figcaption>
+  <img height="200" name="slide" src="image_1.gif" width="400">
+      
+    </figure>
+  </div>
 
-</head>
+<!--div>
+  <footer>
+    <span class="footer">Copyright 2014 MAD</span>
+  </footer>
+</div-->
+   
+</body>
+
+</html>
